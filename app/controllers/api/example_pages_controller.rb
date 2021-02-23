@@ -18,7 +18,7 @@ class Api::ExamplePagesController < ApplicationController
   end
 
   def using_external_view_action
-    @message = "this is a message from the new json.jb file",
+    @message = "this is a message from the new json.jb file"
     @date = Date.today
     
     render "use_the_view.json.jb"
